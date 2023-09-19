@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide the scrollbar for webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* Make scrollbar track transparent */
+}
+
+/* Optional: hide scrollbar on Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Make scrollbar thumb and track transparent */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.device-size-display {
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    background-color: rgba(170, 245, 84, 0.694);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+@media (min-width: 576px) {
+    #device-size::before {
+        content: 'XS / SM';
+    }
+}
+
+@media (min-width: 768px) {
+    #device-size::before {
+        content: 'MD';
+    }
+}
+
+@media (min-width: 992px) {
+    #device-size::before {
+        content: 'LG';
+    }
+}
+
+@media (min-width: 1200px) {
+    #device-size::before {
+        content: 'XL';
+    }
+}
+
+body::before {
+    display: block;
+    content: "";
+    height: 30px;
+}
+
+.custom-text-color {
+    color: #2b7ffe;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+/*Mavbar*/
+
+.cutom-bg-color{
+    background-color: #2874f0;
+}
+
+/*Sction-one*/
+.box{
+    width: 120px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+}
+
+.box-img{
+    width: 100%;
+    height: 90%;
+}
