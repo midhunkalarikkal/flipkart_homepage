@@ -3,22 +3,29 @@
     padding: 0;
 }
 
-/* Hide the scrollbar for webkit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
     width: 0;
-    background: transparent; /* Make scrollbar track transparent */
+    background: transparent;
 }
 
-/* Optional: hide scrollbar on Firefox */
 html {
     scrollbar-width: thin;
-    scrollbar-color: transparent transparent; /* Make scrollbar thumb and track transparent */
+    scrollbar-color: transparent transparent;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+}
+body::before {
+    display: block;
+    content: "";
+    height: 30px;
+}
+
+.custom-text-color {
+    color: #2b7ffe;
 }
 
 .device-size-display {
@@ -32,21 +39,88 @@ body {
     z-index: 100;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+    #device-size::before {
+        content: '< XS';
+    }
+
+    .box{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+    }
+    
+    .box-img{
+        width: 100%;
+        height: 80%;
+    }
+
+    .box-name h6{
+        font-size: 8px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
     #device-size::before {
         content: 'XS / SM';
     }
-}
 
-@media (min-width: 768px) {
-    #device-size::before {
-        content: 'MD';
+    .box{
+        width: 80px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+    }
+    
+    .box-img{
+        width: 100%;
+        height: 80%;
+    }
+
+    .box-name h6{
+        font-size: 12px;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    #device-size::before {
+        content: 'MD';
+    }
+
+    .box{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+    }
+    
+    .box-img{
+        width: 100%;
+        height: 80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
     #device-size::before {
         content: 'LG';
+    }
+
+    .box{
+        width: 120px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+    }
+    
+    .box-img{
+        width: 100%;
+        height: 90%;
     }
 }
 
@@ -54,21 +128,18 @@ body {
     #device-size::before {
         content: 'XL';
     }
-}
 
-body::before {
-    display: block;
-    content: "";
-    height: 30px;
-}
-
-.custom-text-color {
-    color: #2b7ffe;
-}
-
-@media (min-width: 768px) {
-    .news-input {
-        width: 50%;
+    .box{
+        width: 120px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+    }
+    
+    .box-img{
+        width: 100%;
+        height: 90%;
     }
 }
 
@@ -79,15 +150,3 @@ body::before {
 }
 
 /*Sction-one*/
-.box{
-    width: 120px;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-    background-color: yellowgreen;
-}
-
-.box-img{
-    width: 100%;
-    height: 90%;
-}
