@@ -516,3 +516,53 @@ body::before {
 }
 
 /*Section two scrolling arrow*/
+
+/*Banner box*/
+.banner-box {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.7) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-content:hover{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.banner-content h1 {
+    font-size: 2rem;
+}
+
+.banner-content p {
+    font-size: 1rem;
+}
+
+.banner-content button {
+    margin-top: 10px;
+}
