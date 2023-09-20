@@ -97,7 +97,11 @@ body::before {
         height: 10%;
         width: 100%;
         text-align: center;
-        color: rgb(76, 206, 66);
+        color: #008000;
+    }
+
+    .box-two .offer h6{
+        font-size: 8px;
     }
 
     .scroll-arrow {
@@ -192,7 +196,11 @@ body::before {
         height: 10%;
         width: 100%;
         text-align: center;
-        color: rgb(76, 206, 66);
+        color: #008000;
+    }
+
+    .box-two .offer h6{
+        font-size: 10px;
     }
 
     .scroll-arrow {
@@ -277,7 +285,11 @@ body::before {
         height: 10%;
         width: 100%;
         text-align: center;
-        color: rgb(76, 206, 66);
+        color: #008000;
+    }
+
+    .box-two .offer h6{
+        font-size: 12px;
     }
 
     .scroll-arrow {
@@ -362,7 +374,11 @@ body::before {
         height: 10%;
         width: 100%;
         text-align: center;
-        color: rgb(76, 206, 66);
+        color: #008000;
+    }
+
+    .box-two .offer h6{
+        font-size: 14px;
     }
 
     .scroll-arrow {
@@ -443,7 +459,11 @@ body::before {
         height: 10%;
         width: 100%;
         text-align: center;
-        color: rgb(76, 206, 66);
+        color: #008000;
+    }
+
+    .box-two .offer h6{
+        font-size: 14px;
     }
 
     .scroll-arrow {
@@ -566,3 +586,26 @@ body::before {
 .banner-content button {
     margin-top: 10px;
 }
+
+/*Footer*/
+.footer-section h6 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #c7c7c7;
+}
+
+.footer-section p {
+    margin-bottom: 1px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pspan{
+    color: #c4c4c4;
+}
+
+/*Footer-two*/
+.footer-two-h6{
+    font-size: 12px;
+}
+
