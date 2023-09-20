@@ -508,6 +508,11 @@ body::before {
     background-color: #2874f0;
 }
 
+.navbar-brand img{
+    width: 5vh;
+    height: 4vh;
+}
+
 /*Sction-one*/
 /*Section two scrolling arrow*/
 .scroll-container {
