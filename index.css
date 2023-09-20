@@ -46,16 +46,32 @@ body::before {
     }
 
     .box {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         display: flex;
         flex-direction: column;
-        background-color: yellowgreen;
     }
 
     .box-img {
         width: 100%;
         height: 80%;
+    }
+
+    .box-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-name{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-name h6{
+        font-size: 12px;
     }
 
     .box-name h6 {
@@ -108,8 +124,6 @@ body::before {
         font-size: 14px;
     }
 
-    /*Big box*/
-
     .box-three {
         display: flex;
         flex-wrap: wrap;
@@ -145,11 +159,10 @@ body::before {
     }
 
     .box {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
         display: flex;
         flex-direction: column;
-        background-color: yellowgreen;
     }
 
     .box-img {
@@ -157,7 +170,20 @@ body::before {
         height: 80%;
     }
 
-    .box-name h6 {
+    .box-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-name{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-name h6{
         font-size: 12px;
     }
 
@@ -207,8 +233,6 @@ body::before {
         font-size: 16px;
     }
 
-    /*Big box*/
-
     .box-three {
         display: flex;
         flex-wrap: wrap;
@@ -247,12 +271,28 @@ body::before {
         height: 100px;
         display: flex;
         flex-direction: column;
-        background-color: yellowgreen;
     }
 
     .box-img {
         width: 100%;
         height: 80%;
+    }
+
+    .box-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-name{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-name h6{
+        font-size: 14px;
     }
 
     .box-two {
@@ -296,8 +336,6 @@ body::before {
         font-size: 18px;
     }
 
-    /*Big box*/
-
     .box-three {
         display: flex;
         flex-wrap: wrap;
@@ -336,12 +374,24 @@ body::before {
         height: 120px;
         display: flex;
         flex-direction: column;
-        background-color: yellowgreen;
     }
 
     .box-img {
         width: 100%;
         height: 80%;
+    }
+
+    .box-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-name{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .box-two {
@@ -385,8 +435,6 @@ body::before {
         font-size: 22px;
     }
 
-    /*Big box*/
-
     .box-three {
         display: flex;
         flex-wrap: wrap;
@@ -421,12 +469,24 @@ body::before {
         height: 120px;
         display: flex;
         flex-direction: column;
-        background-color: yellowgreen;
     }
 
     .box-img {
         width: 100%;
         height: 80%;
+    }
+
+    .box-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-name{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .box-two {
@@ -475,8 +535,6 @@ body::before {
         height: 100%;
         object-fit: contain;
     }
-
-    /*Big box*/
 
     .box-three {
         display: flex;
