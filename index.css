@@ -151,6 +151,11 @@ body::before {
         font-size: 8px;
     }
 
+    #bigbox h4{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -259,6 +264,11 @@ body::before {
     .smbox p{
         font-size: 10px;
     }
+
+    #bigbox h4{
+        font-size: 14px;
+        margin-top: 12px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -362,6 +372,11 @@ body::before {
     .smbox p{
         font-size: 11px;
     }
+
+    #bigbox h4{
+        font-size: 14px;
+        margin-top: 14px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -456,6 +471,11 @@ body::before {
 
     .smbox p{
         font-size: 15px;
+    }
+
+    #bigbox h4{
+        font-size: 16px;
+        margin-top: 10px;
     }
 }
 
@@ -557,6 +577,11 @@ body::before {
 
     .smbox p{
         font-size: 15px;
+    }
+
+    #bigbox h4{
+        font-size: 18px;
+        margin-top: 10px;
     }
 }
 
