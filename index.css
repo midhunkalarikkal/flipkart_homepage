@@ -577,7 +577,9 @@ body::before {
     height: 4vh;
 }
 
-/*Sction-one*/
+.navbar-nav .nav-link{
+    color: white;
+}
 /*Section two scrolling arrow*/
 .scroll-container {
     display: flex;
